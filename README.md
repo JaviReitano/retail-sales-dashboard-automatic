@@ -42,6 +42,9 @@ que es la fuente principal del modelo Power BI.
 ## 🔄 Flujo automático (Python → BAT → Task Scheduler → Power BI)
 
 ### 1️⃣ El usuario o un proceso actualiza el archivo crudo:
+- data/raw/retail_sales_dataset.csv
+
+### 2️⃣ El archivo `.bat` ejecuta el script Python:
 - actualizar_retail_sales.bat
 
 ### 3️⃣ Windows Task Scheduler ejecuta ese `.bat` **de forma programada**  
